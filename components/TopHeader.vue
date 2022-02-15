@@ -14,7 +14,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Rubik:wght@400;500;700&display=swap");
 
 header {
@@ -23,6 +23,10 @@ header {
   text-align: center;
   color: white;
   height: 300px;
+}
+
+h1 {
+  padding-top: 0.7em;
 }
 
 .text-decor {

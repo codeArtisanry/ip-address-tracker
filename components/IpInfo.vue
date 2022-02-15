@@ -24,5 +24,6 @@ export default {
 .ip-info-card {
   flex: 1;
   padding-top: 1em;
+  margin: 1em;
 }
 </style>
