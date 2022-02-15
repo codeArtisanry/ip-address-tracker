@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <nuxt-link to="./vatsal"></nuxt-link>
-  </div>
+  <div></div>
 </template>
 
 <script>
