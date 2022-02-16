@@ -7,7 +7,6 @@
       <ip-info :title="'time zone'" :value="'abc'" />
       <ip-info :title="'isc'" :value="'abc'" />
     </div>
-    <div class="map"></div>
   </div>
 </template>
 
