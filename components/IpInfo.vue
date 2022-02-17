@@ -1,7 +1,7 @@
 <template>
   <div class="ip-info-card">
     <p>{{ title }}</p>
-    <h1>{{ value }}</h1>
+    <h3 class="text">{{ value }}</h3>
   </div>
 </template>
 
@@ -23,7 +23,16 @@ export default {
 <style>
 .ip-info-card {
   flex: 1;
-  padding-top: 1em;
-  margin: 1em;
+  margin: 1.8em;
+  text-transform: uppercase;
+  border-right-style: inset;
+  color: grey;
+}
+
+.text {
+  font-weight: 700;
+  size: 5px;
+  color: black;
+  opacity: 0.8;
 }
 </style>
