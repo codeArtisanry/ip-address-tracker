@@ -34,10 +34,8 @@ export default {
 
   eslint: {
     /* module options */
-
     extensions: ["js", "vue"],
     exclude: ["node_modules"],
-
     fix: true,
   },
 
