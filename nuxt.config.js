@@ -29,6 +29,7 @@ export default {
     "@nuxtjs/eslint-module",
     // https://go.nuxtjs.dev/stylelint
     "@nuxtjs/stylelint-module",
+    "nuxt-leaflet",
   ],
 
   eslint: {
