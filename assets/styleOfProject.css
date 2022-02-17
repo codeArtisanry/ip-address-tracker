@@ -1,5 +1,5 @@
 body {
-  background-color: antiquewhite;
+  background-color: white;
 }
 
 .d {
@@ -7,6 +7,7 @@ body {
   background-size: cover;
   height: 300px;
   margin-top: 100px;
+  margin-left: 100px;
 }
 
 .title {
@@ -29,19 +30,45 @@ body {
 }
 
 .form {
-  margin-left: 430px;
+  margin-left: 300px;
 }
 
 .second {
+  position: relative;
   margin-top: 100px;
-  margin-left: 30px;
+  margin-left: 50px;
   background-color: white;
   height: 200px;
   width: 90%;
   border-radius: 10px;
+  z-index: 1;
 }
 
-.col {
+.column-s {
   padding-top: 15px;
   padding-left: 15px;
+  z-index: 1;
+}
+
+.f1 {
+  font-size: small;
+  color: rgb(122, 126, 126);
+}
+
+.f2 {
+  font-size: large;
+}
+
+.f1 {
+  font-size: small;
+  color: rgb(122, 126, 126);
+}
+
+.f2 {
+  font-size: large;
+}
+
+.map {
+  height: 300px;
+  width: 1000px;
 }
