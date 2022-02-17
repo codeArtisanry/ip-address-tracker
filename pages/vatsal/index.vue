@@ -47,8 +47,6 @@ export default {
           postalCode: "",
           timezone: "",
           region: "",
-          lat: "",
-          lng: "",
         },
         isp: "",
       },
@@ -62,6 +60,12 @@ export default {
           this.domain
       );
       this.domaindata = results;
+      this.lat_lng = [
+        this.domaindata.location.lat,
+        this.domaindata.location.lng,
+      ];
+      // lat=,this.domaindata.location.lat,
+      // lng=this.domaindata.location.lng
     },
   },
 };
